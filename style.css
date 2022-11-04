@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+body{
+    background-color: #589ed9;
+}
+
+#container{
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 300px;
+}
+
+.fa-weibo{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.headerText h2{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.input input{
+    padding: 10px 20px;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+#loginEmail{
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid lightgray;
+}
+
+#loginPassword{
+    border-radius: 0 0 5px 5px;
+}
+
+form button{
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin: 10px 0;
+    background-color: #238ef1;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #0d75bb;
+}
+
+.footerText h5{
+    font-weight: 300;
+    color: white;
+}
+
+.footerText h5 strong:hover{
+    cursor: pointer;
+}
